@@ -1,6 +1,6 @@
 # Cornell-Movie-Dialog-Corpus
 
-# Final Team Project: AI Chatbot for Movie Recommendations
+# Final Team Project: Cornell Movie Dialog Corpus
 
 ## Overview
 This project aims to create an AI-powered chatbot capable of interacting with users to provide information about movies, including recommendations, plot details, and general movie trivia. Our chatbot is built using a fine-tuned GPT-2 model, trained on the Cornell Movie Dialogues dataset, and employs fallback strategies to ensure coherent responses. This project was completed as part of our graduate program's final requirement for the Applied Artificial Intelligence course.
