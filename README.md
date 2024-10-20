@@ -29,32 +29,28 @@ To run the chatbot on your local machine:
    ```bash
    git clone https://github.com/AryazRez/Cornell-Movie-Dialog-Corpus.git
    ```
-2. Install required dependencies:
+2. Download the pretrained GPT-2 model and move it into the appropriate directory.
+3. Run the pre-processing and fine-tuning notebook:
    ```bash
-   pip install -r requirements.txt
+   AAI-520_Final_Project_AAZ.ipynb
    ```
-3. Download the pretrained GPT-2 model and move it into the appropriate directory.
-4. Run the chatbot script:
+4. Save and move fine-tuned model to appropriate directory.
+5. Run the chatbot notebook and begin asking questions in Tkinter chatbot:
    ```bash
-   python app.py
+   AAI-520_Final_Project_Chatbot.ipynb
    ```
 
 ## Usage
-Upon running the script, users can interact with the chatbot directly from the terminal. The bot will answer questions related to movies, directors, genres, and make personalized recommendations.
-
-Example:
-```
-
-```
+Upon running the script, users can interact with the chatbot directly from the terminal. The bot will answer questions influenced the trained movie scripts
 
 ## File Structure
-- **app.py**: Main script for running the chatbot.
-- **conversation_pairs.csv**: Preprocessed dialogue dataset used for model fine-tuning.
-- **utils.py**: Utility functions for data processing and evaluation.
-- **requirements.txt**: List of dependencies required to run the project.
+- **AAI-520_Final_Project_AAZ.ipynb**: Data pre-processing and model fine-tuning
+- **conversation_pars.csv**: Preprocessed dialogue dataset used for model fine-tuning.
+- **AAI_520_Final_Project_QA.ipynb**: Imported fine-tuned model that contains basic Q&A chatbot.
+- **AAI_520_Final_Project_Chatbot.ipynb**: Notebook that contains Tkinter GUI for chatbot.
 
 ## Evaluation Metrics
-- **Perplexity**: Measures the fluency and predictability of the model's responses.
+- **Perplexity**: Measures the fluency, predictability, and certainty of the model's responses.
 
 ## Future Improvements
 - **Model Expansion**: Exploring the use of larger models such as GPT-3 to enhance conversational depth.
