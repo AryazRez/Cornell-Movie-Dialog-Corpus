@@ -3,7 +3,7 @@
 # Final Team Project: Cornell Movie Dialog Corpus
 
 ## Overview
-This project aims to create an AI-powered chatbot capable of interacting with users to provide information about movies, including recommendations, plot details, and general movie trivia. Our chatbot is built using a fine-tuned GPT-2 model, trained on the Cornell Movie Dialogues dataset, and employs fallback strategies to ensure coherent responses. This project was completed as part of our graduate program's final requirement for the Applied Artificial Intelligence course.
+This project aims to create an AI-powered chatbot capable of interacting with users to provide information about movies, including recommendations, plot details, and general movie trivia. Our chatbot is built using a fine-tuned GPT-2 model, trained on the Cornell Movie Dialogues dataset, and employs fallback strategies to ensure coherent responses. This project was completed as part of our graduate program's final requirement for the AAI 520 course.
 
 ## Features
 - **Conversational Movie Recommendations**: Users can interact with the bot to receive personalized movie suggestions, particularly for specific genres or occasions.
@@ -45,7 +45,7 @@ Upon running the script, users can interact with the chatbot directly from the t
 
 ## File Structure
 - **AAI-520_Final_Project_AAZ.ipynb**: Data pre-processing and model fine-tuning
-- **conversation_pars.csv**: Preprocessed dialogue dataset used for model fine-tuning.
+- **conversation_pairs.csv**: Preprocessed dialogue dataset used for model fine-tuning.
 - **AAI_520_Final_Project_QA.ipynb**: Imported fine-tuned model that contains basic Q&A chatbot.
 - **AAI_520_Final_Project_Chatbot.ipynb**: Notebook that contains Tkinter GUI for chatbot.
 
