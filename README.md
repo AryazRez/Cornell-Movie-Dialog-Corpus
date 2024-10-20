@@ -9,7 +9,7 @@ This project aims to create an AI-powered chatbot capable of interacting with us
 - **Conversational Movie Recommendations**: Users can interact with the bot to receive personalized movie suggestions, particularly for specific genres or occasions.
 - **Movie Information**: The bot can provide information about movie directors, plot summaries, and general trivia about popular movies.
 - **Fallback Strategy**: For questions where the bot struggles to generate a coherent response, a fallback mechanism was designed to provide a sensible default reply or escalate to re-generating a response.
-- **Evaluation Metrics**: Responses are evaluated based on several metrics, including Perplexity, Cosine Similarity, and BLEU Score, to ensure conversational quality.
+- **Evaluation Metrics**: Responses are evaluated based on Perplexity as the metric. to ensure conversational quality.
 
 ## Dataset
 We used the **Cornell Movie Dialogues dataset** consisting of movie dialogue scripts to train our model. This dataset contains conversational exchanges between movie characters, offering a wide variety of movie-specific conversational contexts.
